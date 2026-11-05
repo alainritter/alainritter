@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: darkjive
+          github_user_name: alainritter
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark

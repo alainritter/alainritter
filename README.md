@@ -21,19 +21,19 @@ Agentic development, straight from the terminal. A multi-agent setup with **Clau
 My portfolio: own visual identity, data-driven instead of a CMS, DE/EN/FR, Lighthouse 100.<br />
 <sub>Design · Astro · TypeScript · Tailwind</sub>
 
-**[Zeitgeber](https://github.com/darkjive/Zeitgeber)** · [live](https://zeitgeber-app.vercel.app)<br />
+**[Zeitgeber](https://github.com/alainritter/Zeitgeber)** · [live](https://zeitgeber-app.vercel.app)<br />
 Astronomically correct sun clock showing the gap between social and solar time. Offline PWA, no tracking.<br />
 <sub>Design · TypeScript · PWA</sub>
 
-**[Ogma](https://github.com/darkjive/Ogma)**<br />
+**[Ogma](https://github.com/alainritter/Ogma)**<br />
 Single pane of glass for my self-hosted homelab.<br />
 <sub>TypeScript · React · Vite</sub>
 
-**[Synapse](https://github.com/darkjive/Synapse)**<br />
+**[Synapse](https://github.com/alainritter/Synapse)**<br />
 Brain-inspired, local-first knowledge graph: notes as a graph with activation, trust and temporal decay.<br />
 <sub>Python · FastAPI · React · Three.js · Ollama</sub>
 
-**[Jobschleuse](https://github.com/darkjive/Jobschleuse)**<br />
+**[Jobschleuse](https://github.com/alainritter/Jobschleuse)**<br />
 From job listing to finished application: a local LLM pipeline instead of SaaS.<br />
 <sub>Python · FastAPI · React · uv</sub>
 
@@ -49,8 +49,8 @@ Also: design and build for [wohlfühlgesundheit.de](https://wohlfühlgesundheit.
 <img src="github-metrics.svg" alt="Contribution calendar and languages" width="480" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/darkjive/darkjive/output/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/darkjive/darkjive/output/snake.svg" alt="Contribution snake" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alainritter/alainritter/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/alainritter/alainritter/output/snake.svg" alt="Contribution snake" width="100%" />
 </picture>
 
 ### Connect

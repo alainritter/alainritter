@@ -29,4 +29,4 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_details: percentage
           plugin_languages_analysis_timeout: 15
-          commits_authoring: Al Ain, Alain Ritter, darkjive, 82544587+darkjive@users.noreply.github.com
+          commits_authoring: Al Ain, Alain Ritter, alainritter, darkjive, 82544587+alainritter@users.noreply.github.com
