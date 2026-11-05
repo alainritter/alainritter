@@ -26,7 +26,7 @@ Astronomically correct sun clock showing the gap between social and solar time. 
 <sub>Design · TypeScript · PWA</sub>
 
 **[Ogma](https://github.com/alainritter/Ogma)**<br />
-Single pane of glass for my self-hosted homelab.<br />
+Dashboard for my own workstation: system metrics, Git repos, Docker and a Kanban board for Claude Code tasks.<br />
 <sub>TypeScript · React · Vite</sub>
 
 **[Synapse](https://github.com/alainritter/Synapse)**<br />
