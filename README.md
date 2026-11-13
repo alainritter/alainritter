@@ -25,14 +25,6 @@ My portfolio: own visual identity, data-driven instead of a CMS, DE/EN/FR, Light
 Astronomically correct sun clock showing the gap between social and solar time. Offline PWA, no tracking.<br />
 <sub>Design · TypeScript · PWA</sub>
 
-**[Ogma](https://github.com/alainritter/Ogma)**<br />
-Dashboard for my own workstation: system metrics, Git repos, Docker and a Kanban board for Claude Code tasks.<br />
-<sub>TypeScript · React · Vite</sub>
-
-**Harmonia**<br />
-Shared design system for all my apps: tokens, base CSS, components, icons and sounds. Dark by default, light on demand.<br />
-<sub>Design systems · CSS · Python</sub>
-
 **[Synapse](https://github.com/alainritter/Synapse)**<br />
 Brain-inspired, local-first knowledge graph: notes as a graph with activation, trust and temporal decay.<br />
 <sub>Python · FastAPI · React · Three.js · Ollama</sub>
