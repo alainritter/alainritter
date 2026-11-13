@@ -13,7 +13,7 @@ Frontend engineer and designer, building for the web since 2000 — from HTML ta
 
 ### How I build
 
-Agentic development, straight from the terminal. A multi-agent setup with **Claude Code** as orchestrator, **OpenCode** for routine changes, **Mistral Vibe** as all-rounder and **Gemini CLI** for research — wired together with my own hooks, skills, MCP servers and a Markdown knowledge vault as shared memory. Local models via Ollama wherever data shouldn't leave the machine.
+Agentic development, straight from the terminal. A multi-agent setup with **Claude Code** as orchestrator, **Mistral Vibe** as all-rounder and **Gemini CLI** for research — wired together with my own hooks, skills, MCP servers and a Markdown knowledge vault as shared memory. Local models via Ollama wherever data shouldn't leave the machine.
 
 ### Selected work
 
@@ -46,7 +46,7 @@ Also: design and build for [wohlfühlgesundheit.de](https://wohlfühlgesundheit.
 ### Stack
 
 **Craft:** UI design · design systems · accessibility · performance · legacy modernization<br />
-**Tools:** Claude Code · OpenCode · TypeScript · React · Astro · Tailwind · Node.js · Python · FastAPI · Ollama · MCP · Docker · Linux
+**Tools:** Claude Code · TypeScript · React · Astro · Tailwind · Node.js · Python · FastAPI · Ollama · MCP · Docker · Linux
 
 ### Activity
 
