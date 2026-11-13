@@ -51,4 +51,4 @@ Also: design and build for [wohlfühlgesundheit.de](https://wohlfühlgesundheit.
 
 ### Connect
 
-[Website](https://pxlngn-net.vercel.app) · [LinkedIn](https://www.linkedin.com/in/alain-ritter-b49ba8233/) · [X](https://x.com/pxlngn)
+[Website](https://pxlngn-net.vercel.app)
