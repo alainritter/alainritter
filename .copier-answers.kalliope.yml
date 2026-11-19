@@ -1,10 +1,11 @@
 # Changes here will be overwritten by Copier; do not edit manually
-_commit: v1.1.2
+_commit: v1.2.0
 _src_path: /home/a/Dev/Hestia/Kalliope
 has_architecture: false
 has_screenshot: false
 lang: en
 license: none
 project_name: alainritter
+security_email: ''
 status: active
 summary: GitHub-Profil von Alain Ritter.
