@@ -5,6 +5,7 @@ import { join } from "node:path";
 export function leakCount(raw, dir) {
   const pub = new Set(raw.filter((r) => !r.isPrivate).map((r) => r.name.toLowerCase()));
   const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  // names under 4 chars are skipped: they collide with ordinary SVG/JS tokens (false positives)
   const patterns = raw
     .filter((r) => r.isPrivate && r.name.length >= 4 && !pub.has(r.name.toLowerCase()))
     .map((r) => new RegExp(`(^|[^\\w])${esc(r.name)}($|[^\\w])`, "i"));
