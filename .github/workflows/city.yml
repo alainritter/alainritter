@@ -1,0 +1,28 @@
+name: City
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  city:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node --test "city/*.test.mjs"
+      # fails (and publishes nothing) if a private repo name ends up in the output
+      - run: node city/build.mjs
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          OUT_DIR: dist
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: city
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
