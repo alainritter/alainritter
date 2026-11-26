@@ -32,7 +32,7 @@ export function renderSvg(data, themeName = "dark") {
   const W = Math.ceil(ox + (width * TW) / 2 + PAD);
   const H = Math.ceil(PAD + 70 + ((width + height) * TH) / 2 + PAD / 2);
 
-  const active = tiles.filter((p) => p.repo.weeks[11] > 0).sort((a, b) => b.repo.lastPush.localeCompare(a.repo.lastPush));
+  const active = tiles.filter((p) => p.repo.weeks[11] > 0).sort((a, b) => (b.repo.lastPush ?? "").localeCompare(a.repo.lastPush ?? ""));
 
   // light trails along the street grid between recently active buildings
   const trails = [];

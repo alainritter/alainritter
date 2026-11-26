@@ -67,9 +67,14 @@ function showWeek(w) {
 }
 
 const slider = document.getElementById("week");
-slider.addEventListener("input", () => showWeek(Number(slider.value)));
 let timer = null;
 const play = document.getElementById("play");
+slider.addEventListener("input", () => {
+  clearInterval(timer);
+  timer = null;
+  play.textContent = "Play";
+  showWeek(Number(slider.value));
+});
 play.addEventListener("click", () => {
   if (timer) {
     clearInterval(timer);
@@ -118,7 +123,14 @@ renderer.domElement.addEventListener("pointermove", (e) => {
   tip.style.left = `${e.clientX + 14}px`;
   tip.style.top = `${e.clientY + 14}px`;
 });
-renderer.domElement.addEventListener("click", () => {
+let down = null;
+renderer.domElement.addEventListener("pointerdown", (e) => {
+  down = [e.clientX, e.clientY];
+});
+renderer.domElement.addEventListener("click", (e) => {
+  // a drag (orbit) also ends in a click: ignore it
+  if (down && Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 5) return;
+  pointer.set((e.clientX / innerWidth) * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
   ray.setFromCamera(pointer, camera);
   const hit = ray.intersectObjects(buildings)[0];
   const r = hit?.object.userData.repo;
