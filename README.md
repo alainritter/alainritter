@@ -42,6 +42,13 @@ Also: design and build for [wohlfühlgesundheit.de](https://wohlfühlgesundheit.
 
 ### Activity
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alainritter/alainritter/city/city-dark.svg" />
+  <img src="https://raw.githubusercontent.com/alainritter/alainritter/city/city-light.svg" alt="My repositories as a city, lit by recent commits" width="100%" />
+</picture>
+
+[Explore the city in 3D](https://alainritter.github.io/alainritter/)
+
 <img src="github-metrics.svg" alt="Contribution calendar and languages" width="480" />
 
 <picture>
