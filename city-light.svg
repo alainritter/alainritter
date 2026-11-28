@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" width="100%" role="img" aria-label="My repositories as a city, lit by recent commits">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1f4ff"/><stop offset="1" stop-color="#d9e2ff"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+.grid{fill:none;stroke:#5b6bd6;stroke-width:.5;opacity:.28}
+.trail{fill:none;stroke:#0077cc;stroke-width:2;stroke-linecap:round;stroke-dasharray:3 120;filter:url(#glow);animation:run 5s linear infinite}
+.win{fill:none;stroke-width:1.6;stroke-dasharray:2 3;opacity:.55}
+.win.live{animation:flicker 3s ease-in-out infinite}
+.beam{stroke-width:2;stroke-linecap:round;filter:url(#glow);animation:beam 2.4s ease-in-out infinite}
+.label{font:11px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#44507a;letter-spacing:.08em}
+@keyframes run{from{stroke-dashoffset:123}to{stroke-dashoffset:0}}
+@keyframes flicker{0%,100%{opacity:.35}30%{opacity:1}55%{opacity:.5}80%{opacity:.9}}
+@keyframes beam{0%,100%{opacity:.25}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.trail,.win.live,.beam{animation:none}.beam{opacity:.8}}
+</style>
+<rect width="300" height="260" fill="url(#bg)"/>
+<path class="grid" d="M100 150L80 160M120 160L100 170M140 170L120 180M160 180L140 190M180 190L160 200M200 200L180 210M220 210L200 220M100 150L220 210M80 160L200 220"/>
+<path class="trail" style="animation-delay:0s" d="M160 190L120 170L120 170"/>
+<path class="trail" style="animation-delay:0.7s" d="M120 170L200 210L200 210"/>
+<g><title>Synapse</title><polygon points="84.4 126 100 133.8 100 167.8 84.4 160" fill="rgb(45,97,140)" stroke="rgb(42,91,132)" stroke-width=".6"/><polygon points="100 133.8 115.6 126 115.6 160 100 167.8" fill="rgb(34,74,107)" stroke="rgb(42,91,132)" stroke-width=".6"/><polygon points="100 118.2 115.6 126 100 133.8 84.4 126" fill="rgb(53,114,165)" stroke="rgb(42,91,132)" stroke-width=".8"/><path class="win" style="animation-delay:0s" d="M86.4 135.5L98.5 142.3M102 142.3L113.6 135.5M86.4 144L98.5 150.8M102 150.8L113.6 144M86.4 152.5L98.5 159.3M102 159.3L113.6 152.5" stroke="#ffffff"/></g>
+<g><title>Jobschleuse</title><polygon points="104.4 144.8 120 152.6 120 177.8 104.4 170" fill="rgb(45,97,140)" stroke="rgb(42,91,132)" stroke-width=".6"/><polygon points="120 152.6 135.6 144.8 135.6 170 120 177.8" fill="rgb(34,74,107)" stroke="rgb(42,91,132)" stroke-width=".6"/><polygon points="120 137 135.6 144.8 120 152.6 104.4 144.8" fill="rgb(53,114,165)" stroke="rgb(42,91,132)" stroke-width=".8"/><path class="win live" style="animation-delay:0.4s" d="M106.4 154.2L118.5 161M122 161L133.6 154.2M106.4 162.6L118.5 169.4M122 169.4L133.6 162.6" stroke="#ffffff"/><line class="beam" style="animation-delay:0.4s" x1="120" y1="137" x2="120" y2="103" stroke="rgb(42,91,132)"/></g>
+<g><title>alainritter</title><polygon points="144.4 151.1 160 158.9 160 197.8 144.4 190" fill="rgb(205,190,77)" stroke="rgb(193,179,72)" stroke-width=".6"/><polygon points="160 158.9 175.6 151.1 175.6 190 160 197.8" fill="rgb(157,146,59)" stroke="rgb(193,179,72)" stroke-width=".6"/><polygon points="160 143.3 175.6 151.1 160 158.9 144.4 151.1" fill="rgb(241,224,90)" stroke="rgb(193,179,72)" stroke-width=".8"/><path class="win live" style="animation-delay:0s" d="M146.4 159.8L158.5 166.6M162 166.6L173.6 159.8M146.4 167.6L158.5 174.4M162 174.4L173.6 167.6M146.4 175.4L158.5 182.2M162 182.2L173.6 175.4M146.4 183.2L158.5 190M162 190L173.6 183.2" stroke="#ffffff"/><line class="beam" style="animation-delay:0s" x1="160" y1="143.3" x2="160" y2="109.3" stroke="rgb(193,179,72)"/></g>
+<g><title>Zeitgeber</title><polygon points="184.4 177.1 200 184.9 200 217.8 184.4 210" fill="rgb(42,102,168)" stroke="rgb(39,96,158)" stroke-width=".6"/><polygon points="200 184.9 215.6 177.1 215.6 210 200 217.8" fill="rgb(32,78,129)" stroke="rgb(39,96,158)" stroke-width=".6"/><polygon points="200 169.3 215.6 177.1 200 184.9 184.4 177.1" fill="rgb(49,120,198)" stroke="rgb(39,96,158)" stroke-width=".8"/><path class="win live" style="animation-delay:0.7s" d="M186.4 186.3L198.5 193.1M202 193.1L213.6 186.3M186.4 194.5L198.5 201.4M202 201.4L213.6 194.5M186.4 202.8L198.5 209.6M202 209.6L213.6 202.8" stroke="#ffffff"/><line class="beam" style="animation-delay:0.7s" x1="200" y1="169.3" x2="200" y2="135.3" stroke="rgb(39,96,158)"/></g>
+<text class="label" x="40" y="242">4 repositories · 4 public · 3 active this week</text>
+</svg>
